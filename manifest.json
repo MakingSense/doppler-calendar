@@ -1,0 +1,30 @@
+{
+"manifest_version": 2,
+"name": "Calendario de Marketing Estacional 2019",
+"short_name": "Calendario Doppler",
+"version": "1.8",
+"author": "Doppler LLC",
+"description": "Calendario de Marketing Estacional 2019 - Doppler",
+"icons": {
+    "128": "resources/img/icon128.png",
+    "48": "resources/img/icon48.png",
+    "16": "resources/img/icon16.png"
+  },
+"browser_action": {
+    "default_icon": "resources/img/icon48.png",
+    "default_popup": "popup.html"
+  },
+"options_ui": {
+  "page": "configuration.html"
+},
+"background": {
+  "scripts": ["resources/js/pushNotifications.js"],
+  "persistent": false
+},
+"permissions": [
+  "storage",
+  "notifications",
+  "tabs",
+  "activeTab"
+  ]
+}
