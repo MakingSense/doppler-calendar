@@ -11,16 +11,3 @@ An extension must fulfill a  [single purpose](https://developer.chrome.com/singl
 # Files and folders
 
 Every extension has a **JSON-formatted** manifest file, named manifest.json, that provides important information [Example](https://developer.chrome.com/extensions/manifest). Then we have the files popup.html which is the popup that we see when we click on the icon of the extension and then we have a configuration.html where we will have more options of the extension. These two files get the styles, images and scripts from the resource folder.
-
-## Diagram calendar
-
-Flow diagram the extension.
-
-```mermaid
-graph TD
-A[Calendar] -->|Click| B(Open popup)
-B --> C{What I can do}
-C --> D[See special dates]
-C --> E[See options]
-E[See options] --> F[Synchronize with your calendar]
-```
