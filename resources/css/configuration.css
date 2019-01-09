@@ -65,8 +65,14 @@ h3 {
 	line-height: 18px;
 }
 
-.configuration-check {
-	padding: 15px 0 45px;
+.section__configuration {
+	padding-bottom: 45px;
+}
+
+.section__configuration label {
+	color: #4A4A4A;
+	font-size: 14px;
+	line-height: 17px;
 }
 
 .section__column {
