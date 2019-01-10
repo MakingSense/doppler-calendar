@@ -2,7 +2,7 @@
 "manifest_version": 2,
 "name": "Calendario de Marketing Estacional 2019",
 "short_name": "Calendario Doppler",
-"version": "1.8",
+"version": "2.4",
 "author": "Doppler LLC",
 "description": "Calendario de Marketing Estacional 2019 - Doppler",
 "icons": {
@@ -18,13 +18,14 @@
   "page": "configuration.html"
 },
 "background": {
-  "scripts": ["resources/js/pushNotifications.js"],
+  "scripts": ["background.js"],
   "persistent": false
 },
 "permissions": [
   "storage",
   "notifications",
   "tabs",
-  "activeTab"
+  "activeTab",
+  "browsingData"
   ]
 }

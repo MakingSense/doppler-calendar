@@ -252,3 +252,32 @@ header {
 .accordion__day--description span {
 	font-weight: bold;
 }
+
+.section_register {
+	background-image: url('../img/footer-extension.png');
+	background-size: auto 57px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height: 150px;
+	padding-left: 20px;
+}
+
+.section_register p {
+	font-size: 14px;
+	font-weight: bold;
+	color: #302100;
+	line-height: 19px;
+
+	padding: 40px 0px 16px;
+}
+
+.section_register a {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 11px;
+	color: #F6CD66;
+	padding: 11px 22px;
+	background-color: #1D1F89;
+	border: 0px;
+	border-radius: 100px;
+}
