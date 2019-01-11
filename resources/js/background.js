@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('/sw.js');
+navigator.serviceWorker.register('../../sw.js');
 
 // Push Notifications
  var theDay = (new Date()).toISOString().replace(/-/g, '/').split('T')[0],

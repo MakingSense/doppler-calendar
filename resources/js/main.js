@@ -161,3 +161,20 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
   console.warn('Push messaging is not supported');
   pushButton.textContent = 'Push Not Supported';
 }
+
+function notificationCheck() {
+    var checkbox = document.querySelector('.js-push-btn');
+    if (localStorage.notbtn == 'true') {
+        checkbox.checked = true;
+    } else {
+        checkbox.checked = false;
+    }
+    checkbox.addEventListener("change", save);
+}
+
+function save() {
+    var notbtnVal = document.querySelector('.js-push-btn').checked;
+    localStorage.setItem('notbtn', notbtnVal);
+}
+
+window.addEventListener("DOMContentLoaded", notificationCheck);
