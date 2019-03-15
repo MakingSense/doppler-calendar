@@ -346,9 +346,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day36_1){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día del Maestro en MX - CO');
  }else if (theDay == day37){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PA');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PRY');
  }else if (theDay == day37_1){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PA');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PRY');
  }else if (theDay == day38){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día Internacional de la Familia');
  }else if (theDay == day38_1){
@@ -382,9 +382,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day46_1){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','07 - Día del Periodista en AR');
  }else if (theDay == day47){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/09-padre.png','16 - Día del Padre en AR - MX - PE - CL - PAR - EC - CO');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/09-padre.png','16 - Día del Padre en AR - MX - PE - CL - PRY - EC - CO');
  }else if (theDay == day47_1){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/09-padre.png','16 - Día del Padre en AR - MX - PE - CL - PAR - EC - CO');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/09-padre.png','16 - Día del Padre en AR - MX - PE - CL - PRY - EC - CO');
  }else if (theDay == day48){
    spawnNotification('¿Te dedicas a esta actividad? Comparte una historia de tu negocio u organiza un concurso para celebrarlo.','resources/img/emojis-push/20-gastronomia.png','18 - Día de la Gastronomía en PE');
  }else if (theDay == day48_1){
@@ -434,9 +434,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day59_1){
    spawnNotification('¿Alguno de tus productos podría ser un buen obsequio? Sugiérelo.','resources/img/emojis-push/25-abuelo.png','26 - Día de los Abuelos y Abuelas en AR - ES');
  }else if (theDay == day60){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/24-amigo.png','30 - Día del Amigo en PAR');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/24-amigo.png','30 - Día del Amigo en PRY');
  }else if (theDay == day60_1){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/24-amigo.png','30 - Día del Amigo en PAR');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/24-amigo.png','30 - Día del Amigo en PRY');
  }else if (theDay == day61){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','04 - Día del Periodista en CO');
  }else if (theDay == day61_1){
