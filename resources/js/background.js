@@ -12,8 +12,8 @@ navigator.serviceWorker.register('../../sw.js');
  day4_1 = '2019/01/05',
  day5 = '2018/12/23',
  day5_1 = '2019/01/06',
- day6 = '2019/01/07',
- day6_1 = '2019/01/21',
+ day6 = '2019/01/13',
+ day6_1 = '2019/01/27',
  day7 = '2019/01/09',
  day7_1 = '2019/01/23',
  day8 = '2019/01/20',
@@ -82,8 +82,6 @@ navigator.serviceWorker.register('../../sw.js');
  day39_1 = '2019/05/14',
  day40 = '2019/05/02',
  day40_1 = '2019/05/16',
- day41 = '2019/05/12',
- day41_1 = '2019/05/16',
  day42 = '2019/05/15',
  day42_1 = '2019/05/29',
  day43 = '2019/05/17',
@@ -181,7 +179,27 @@ navigator.serviceWorker.register('../../sw.js');
  day89 = '2019/12/13',
  day89_1 = '2019/12/27',
  day90 = '2019/12/16',
- day90_1 = '2019/12/30';
+ day90_1 = '2019/12/30',
+ day91 = '2019/03/17',
+ day91_1 = '2019/04/01',
+ day92 = '2019/04/14',
+ day92_1 = '2019/04/28',
+ day93 = '2019/05/12',
+ day93_1 = '2019/05/26',
+ day94 = '2019/07/01',
+ day94_1 = '2019/07/14',
+ day95 = '2019/10/17',
+ day95_1 = '2019/11/01',
+ day96 = '2019/10/19',
+ day96_1 = '2019/11/03',
+ day97 = '2019/10/19',
+ day97_1 = '2019/11/03',
+ day98 = '2019/11/09',
+ day98_1 = '2019/11/24',
+ day99 = '2019/11/16',
+ day99_1 = '2019/12/01',
+ day100 = '2019/11/27',
+ day100_1 = '2019/12/11';
 
  if (theDay == day1){
    spawnNotification('¡Saluda a tus Suscriptores y seguidores deseándoles un magnífico año!','resources/img/emojis-push/01-anio-nuevo.png','01 - Año Nuevo');
@@ -204,9 +222,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day5_1){
    spawnNotification('Comparte las más tentadoras','resources/img/emojis-push/04-compras-cyber-blackfriday.png','07 - Comienzan las rebajas de temporada');
  }else if (theDay == day6){
-   spawnNotification('Celebra este día con una acción e invita a tu base a participar.','resources/img/emojis-push/05-comunity-manager.png','22 - Día del Community Manager');
+   spawnNotification('Celebra este día con una acción e invita a tu base a participar.','resources/img/emojis-push/05-comunity-manager.png','28 - Día del Community Manager');
  }else if (theDay == day6_1){
-   spawnNotification('Celebra este día con una acción e invita a tu base a participar.','resources/img/emojis-push/05-comunity-manager.png','22 - Día del Community Manager');
+   spawnNotification('Celebra este día con una acción e invita a tu base a participar.','resources/img/emojis-push/05-comunity-manager.png','28 - Día del Community Manager');
  }else if (theDay == day7){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','24 - Día del Periodista en ES');
  }else if (theDay == day7_1){
@@ -228,9 +246,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day11_1){
    spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/06-sanvalentin.png','14 - Día de San Valentín');
  }else if (theDay == day12){
-   spawnNotification('¡La alegría no tiene fin! Celébralo enviando descuentos y promociones.','resources/img/emojis-push/07-carnaval.png','02 - 05 - Carnaval');
+   spawnNotification('¡La alegría no tiene fin! Celébralo enviando descuentos y promociones.','resources/img/emojis-push/07-carnaval.png','04 - 05 - Carnaval');
  }else if (theDay == day12_1){
-   spawnNotification('¡La alegría no tiene fin! Celébralo enviando descuentos y promociones.','resources/img/emojis-push/07-carnaval.png','02 - 05 - Carnaval');
+   spawnNotification('¡La alegría no tiene fin! Celébralo enviando descuentos y promociones.','resources/img/emojis-push/07-carnaval.png','04 - 05 - Carnaval');
  }else if (theDay == day13){
    spawnNotification('Cuéntales a tus seguidores lo que haces en tu negocio para cuidarla.','resources/img/emojis-push/36-naturaleza.png','03 - Día de la Naturaleza');
  }else if (theDay == day13_1){
@@ -320,33 +338,29 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day34_1){
    spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','10 - Día de la Madre en MX');
  }else if (theDay == day35){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','12 - Día de la Madre en PE - EC - CL - CO - URY');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','12 - Día de la Madre en PE - EC - CL - CO - URY - CL');
  }else if (theDay == day35_1){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','12 - Día de la Madre en PE - EC - CL - CO - URY');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','12 - Día de la Madre en PE - EC - CL - CO - URY - CL');
  }else if (theDay == day36){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día del Maestro en MX - CO');
  }else if (theDay == day36_1){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día del Maestro en MX - CO');
  }else if (theDay == day37){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PAR');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PA');
  }else if (theDay == day37_1){
-   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PAR');
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/17-madre.png','15 - Día de la Madre en PA');
  }else if (theDay == day38){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día Internacional de la Familia');
  }else if (theDay == day38_1){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','15 - Día Internacional de la Familia');
  }else if (theDay == day39){
-   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','15 - 17 - Hot Sale');
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','13 - 15 - Hot Sale en AR');
  }else if (theDay == day39_1){
-   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','15 - 17 - Hot Sale');
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','13 - 15 - Hot Sale en AR');
  }else if (theDay == day40){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','17 - Día Internacional de Internet');
  }else if (theDay == day40_1){
    spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','17 - Día Internacional de Internet');
- }else if (theDay == day41){
-   spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','27 - Día del Marketing');
- }else if (theDay == day41_1){
-   spawnNotification('Haz una acción en Redes','resources/img/emojis-push/02-socialmedia.png','27 - Día del Marketing');
  }else if (theDay == day42){
    spawnNotification('Mira cómo lo celebramos en 2018 y prepárate para el festejo de 2019.','resources/img/emojis-push/18-cumple-doppler.png','30 - Aniversario #30 de Doppler :)');
  }else if (theDay == day42_1){
@@ -372,9 +386,9 @@ navigator.serviceWorker.register('../../sw.js');
  }else if (theDay == day47_1){
    spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/09-padre.png','16 - Día del Padre en AR - MX - PE - CL - PAR - EC - CO');
  }else if (theDay == day48){
-   spawnNotification('¿Te dedicas a esta actividad? Comparte una historia de tu negocio u organiza un concurso para celebrarlo.','resources/img/emojis-push/20-gastronomia.png','18 - Día de la Gastronomía');
+   spawnNotification('¿Te dedicas a esta actividad? Comparte una historia de tu negocio u organiza un concurso para celebrarlo.','resources/img/emojis-push/20-gastronomia.png','18 - Día de la Gastronomía en PE');
  }else if (theDay == day48_1){
-   spawnNotification('¿Te dedicas a esta actividad? Comparte una historia de tu negocio u organiza un concurso para celebrarlo.','resources/img/emojis-push/20-gastronomia.png','18 - Día de la Gastronomía');
+   spawnNotification('¿Te dedicas a esta actividad? Comparte una historia de tu negocio u organiza un concurso para celebrarlo.','resources/img/emojis-push/20-gastronomia.png','18 - Día de la Gastronomía en PE');
  }else if (theDay == day49){
    spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/21-invierno-verano.png','21 - Comienzo del invierno en el Hemisferio Sur y del verano en el Hemisferio Norte');
  }else if (theDay == day49_1){
@@ -543,6 +557,46 @@ navigator.serviceWorker.register('../../sw.js');
    spawnNotification('A las puertas de un nuevo año, envía un saludo especial.','resources/img/emojis-push/33-anio-nuevo.png','31 - Fin de Año');
  }else if (theDay == day90_1){
    spawnNotification('A las puertas de un nuevo año, envía un saludo especial.','resources/img/emojis-push/33-anio-nuevo.png','31 - Fin de Año');
+ }else if (theDay == day91){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','01 - 02 - Hot Sale en CO');
+ }else if (theDay == day91_1){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','01 - 02 - Hot Sale en CO');
+ }else if (theDay == day92){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','29 - 01 - CyberDays en PE');
+ }else if (theDay == day92_1){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','29 - 01 - CyberDays en PE');
+ }else if (theDay == day93){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','27 - 29 - CyberDays en PE');
+ }else if (theDay == day93_1){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','27 - 29 - CyberDay en CL');
+ }else if (theDay == day94){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','15 - 17 - CyberDays en PE');
+ }else if (theDay == day94_1){
+   spawnNotification('Avísales a todos tus clientes de tus ofertas imperdibles y por tiempo limitado.','resources/img/emojis-push/04-compras-cyber-blackfriday.png','15 - 17 - CyberDays en PE');
+ }else if (theDay == day95){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/37-diamuerto.png','02 - Día de Muertos en MX');
+ }else if (theDay == day95_1){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/37-diamuerto.png','02 - Día de Muertos en MX');
+ }else if (theDay == day96){
+   spawnNotification('Haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','04 - Día Internacional del Marketing');
+ }else if (theDay == day96_1){
+   spawnNotification('Haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','04 - Día Internacional del Marketing');
+ }else if (theDay == day97){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','04 - 06 - CyberMonday en AR');
+ }else if (theDay == day97_1){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','04 - 06 - CyberMonday en AR');
+ }else if (theDay == day98){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','25 - 26 - Cyberlunes en CO');
+ }else if (theDay == day98_1){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','25 - 26 - Cyberlunes en CO');
+ }else if (theDay == day99){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','25 - 27 - CyberDays en PE');
+ }else if (theDay == day99_1){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/04-compras-cyber-blackfriday.png','25 - 27 - CyberDays en PE');
+ }else if (theDay == day100){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/38-maraton-reyes.png','02 - CyberMonday en ES - EC - MX');
+ }else if (theDay == day100_1){
+   spawnNotification('Envía una Campaña de Email y haz una acción en Redes','resources/img/emojis-push/38-maraton-reyes.png','02 - CyberMonday en ES - EC - MX');
  }
 
  function spawnNotification(theBody, theIcon, theTitle) {
