@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./proxima-nova.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Italic';
+    src: url('./proxima-nova-italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('./proxima-nova-bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold Italic';
+    src: url('./proxima-nova-bold-italic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Hand of Sean Pro';
+    src: url('./HandOfSeanPro-webfont.ttf');
+    font-weight: 400;
+    font-style: normal;
+}

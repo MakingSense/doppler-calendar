@@ -1,0 +1,39 @@
+.welcome-card img {
+  max-height: 25vh;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+.homepage--page {
+  --background: url('/assets/back-homepage.png') -72px 100px no-repeat;
+}
+
+.homepage--header {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+}
+
+ion-card-title {
+  font-size: 20px;
+}
+
+ion-card-header {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #fff;
+}
+
+.homepage--welcome {
+  padding: 26px 10px;
+  text-align: center;
+  font-family: 'Hand of Sean Pro';
+  font-size: 30px;
+  line-height: 26px;
+}
+
+ion-toolbar {
+  --min-height: 70px;
+}

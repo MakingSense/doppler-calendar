@@ -1,0 +1,8 @@
+{
+  "appId": "com.doppler.calendar",
+  "appName": "doppler-calendar",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

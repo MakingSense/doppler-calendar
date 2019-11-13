@@ -1,6 +1,8 @@
 {
   "name": "doppler-calendar",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react",
   "id": "073cce29"
 }
