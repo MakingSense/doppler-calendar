@@ -9,11 +9,11 @@ import {
     IonTitle,
 } from '@ionic/react';
 
-import Accordion from '../components/accordion';
 import { arrowBack } from 'ionicons/icons';
 import './months.css';
+import EventList from '../components/EventList';
 
-const enero: React.FC = () => {
+const enero = () => {
     return (
         <IonPage>
             <IonHeader>
@@ -25,9 +25,7 @@ const enero: React.FC = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent className="ion-padding month--content">
-                <Accordion title="&#x1F917; 01 - Año nuevo" contentTitle="Envía una Campaña de Email y haz una acción en Redes" content="¡Saluda a tus Suscriptores y seguidores deseándoles un magnífico año!"/>
-                <Accordion title="&#x1F917; 04 - Día del Periodista en MX" contentTitle="Haz una acción en Redes" content=""/>
-                
+               <EventList mes="0"/>
             </IonContent>
         </IonPage>
         );

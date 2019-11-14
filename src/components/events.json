@@ -1,16 +1,37 @@
 [
     {
-    "id": 1,
-    "date": "2020-01-01T00:00:00",
-    "title": "&#x1F917; 01 - Año nuevo",
-    "contentTitle": "Envía una Campaña de Email y haz una acción en Redes",
-    "content": "¡Saluda a tus Suscriptores y seguidores deseándoles un magnífico año!"
-},
-{
-    "id": 2,
-    "date": "2020-01-04T00:00:00",
-    "title": "&#x1F917; 04 - Día del Periodista en MX",
-    "contentTitle": "Haz una acción en Redes",
-    "content": ""
+        "id": 1,
+        "date": "01-01-2020",
+        "title": "&#x1F917; 01 - Año nuevo",
+        "contentTitle": "Envía una Campaña de Email y haz una acción en Redes",
+        "content": "¡Saluda a tus Suscriptores y seguidores deseándoles un magnífico año!"
+    },
+    {
+        "id": 2,
+        "date": "01-04-2020",
+        "title": "&#x1F4E2; 04 - Día del Periodista en MX",
+        "contentTitle": "Haz una acción en Redes",
+        "content": ""
+    },
+    {
+        "id": 3,
+        "date": "01-05-2020",
+        "title": "&#x1F4E2; 05 - Día del Periodista en EC",
+        "contentTitle": "Haz una acción en Redes",
+        "content": ""
+    },
+    {
+        "id": 4,
+        "date": "01-06-2020",
+        "title": "&#x1F303; 06 - Día de los Reyes Magos",
+        "contentTitle": "Haz una acción en Redes",
+        "content": ""
+    },
+    {
+        "id": 3,
+        "date": "02-04-2020",
+        "title": "&#x1F917; 04 - Día Internacional contra el Cáncer",
+        "contentTitle": "Haz una acción en Redes",
+        "content": ""
     }
 ]

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
+
 import { 
     IonButtons,
     IonBackButton,
@@ -9,12 +10,12 @@ import {
     IonTitle,
 } from '@ionic/react';
 
-import Accordion from '../components/accordion';
 import { arrowBack } from 'ionicons/icons';
 import './months.css';
+import EventList from '../components/EventList';
 
-class febrero extends Component {
-render() {
+const febrero : React.FC = () => {
+ 
     return(
         <IonPage>
             <IonHeader>
@@ -25,8 +26,11 @@ render() {
                     <IonTitle>Febrero</IonTitle>
                 </IonToolbar>
             </IonHeader>
+            <IonContent className="ion-padding month--content">
+                <EventList mes="1"/>
+            </IonContent>
         </IonPage>
     );
-}
+
 }
 export default febrero;
