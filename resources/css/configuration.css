@@ -12,14 +12,13 @@ button {
 
 a {
 	text-decoration: none;
-	color: #1D1F89;
-  font-weight: bold;
+	color: #33AD73;
 }
 
 header {
 	width: 100%;
 	height: 100px;
-	background-color: #F6CD66;
+	background-color: #ffffff;
 }
 
 .section__header {
@@ -33,7 +32,7 @@ header {
 }
 
 .logo-doppler {
-	height: 30px;
+	height: 33px;
 	float: left;
 	margin-top: 15px;
 	vertical-align: middle;
@@ -83,8 +82,11 @@ h3 {
 	width: 40%;
 	max-width: 350px;
 	vertical-align: top;
-	padding: 32px 50px;
+	padding: 32px 0px;
 	display: inline-block;
+}
+.col-50:nth-child(2) {
+	padding-left: 50px;
 }
 
 li::before {
@@ -114,4 +116,19 @@ ul li {
 	-webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
+}
+
+.logo-email-client {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: bold;
+	color:#4A4A4A;
+	padding: 20px 0;
+}
+
+.logo-email-client img {
+	display: inline-block;
+	margin-right: 6px;
+	vertical-align: middle;
 }

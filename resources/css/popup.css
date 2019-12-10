@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-	background: #F6CD66;
+	background: #FFFFFF;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
@@ -55,9 +55,9 @@ a {
 
 /* Customized Header :: Begin */
 header {
-	height: 80px;
-	background-image: url('../img/ilustracion-header.png');
-	background-size: 430px 80px;
+	height: 81px;
+	background-image: url('../img/header.png');
+	background-size: 409px 81px;
 	position: relative;
 	width: 100%;
 	top: 0;
@@ -112,7 +112,7 @@ header {
 }
 
 .section__madein--icon-d {
-	height: 15px;
+	height: 14px;
 	vertical-align: top;
 	padding-left: 3px;
 }
@@ -126,7 +126,7 @@ header {
 	line-height: 19px;
 	text-align: left;
 	cursor: pointer;
-	border: 1px solid #3E3E79;
+	border: 1px solid #8C6698;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -150,8 +150,8 @@ header {
 }
 
 .accordion__day {
-	background-color: #DDDDEB;
-	border: 1px solid #3E3E79;
+	background-color: #E5CFE3;
+	border: 1px solid #8C6698;
 	box-shadow: 0 -2px 4px 0 rgba(178,178,178,0.5);
 	-moz-box-shadow: 0 -2px 4px 0 rgba(178,178,178,0.5);
 	-webkit-box-shadow: 0 -2px 4px 0 rgba(178,178,178,0.5);
@@ -159,7 +159,7 @@ header {
 
 .active,
 .button__month:hover {
-	background-color: #DDDDEB;
+	background-color: #E5CFE3;
 }
 
 .accordion__days input[type=radio] {
@@ -171,8 +171,8 @@ header {
 }
 
 .accordion__days input[type=radio]:checked+.accordion__day .accordion__day--header {
-	border-bottom: 1px solid #3E3E79;
-	background-color: #DDDDEB;
+	border-bottom: 1px solid #8C6698;
+	background-color: #E5CFE3;
 	border-bottom-left-radius: 0px;
 	-moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
@@ -214,7 +214,7 @@ header {
 }
 
 .accordion__day--header:hover {
-	background-color: #DDDDEB;
+	background-color: #E5CFE3;
 }
 
 .accordion__day--icon {
@@ -245,7 +245,7 @@ header {
 	-webkit-border-bottom-right-radius: 5px;
 	-moz-border-radius-bottomright: 5px;
 	margin: 0px;
-	padding: 11px 10px 20px;
+	padding: 18px 15px;
 	background-color: #ffffff;
 }
 
@@ -254,7 +254,7 @@ header {
 }
 
 .section_register {
-	background-image: url('../img/footer-extension.png');
+	/* background-image: url('../img/footer-extension.png'); */
 	background-size: auto 57px;
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -267,17 +267,20 @@ header {
 	font-weight: bold;
 	color: #302100;
 	line-height: 19px;
-
-	padding: 40px 0px 16px;
+	padding: 40px 0px 22px;
 }
 
 .section_register a {
 	font-size: 11px;
 	font-weight: bold;
 	line-height: 11px;
-	color: #F6CD66;
+	color: #FFFFFF;
 	padding: 11px 22px;
-	background-color: #1D1F89;
+	background-color: #33AD73;
 	border: 0px;
 	border-radius: 100px;
+}
+
+.section_register a:hover {
+	background-color: rgb(44, 146, 97);
 }
