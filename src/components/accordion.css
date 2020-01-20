@@ -28,11 +28,14 @@
   font-weight: 600;
   font-size: 14px;
   padding: 10px;
+  text-align: left;
+  line-height: 17px;
 }
   
 .accordion--icon {
   margin-left: auto;
   transition: transform 0.6s ease;
+  min-width: 10px;
 }
 
 /* Style to rotate icon when state is active */
