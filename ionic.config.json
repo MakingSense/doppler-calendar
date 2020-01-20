@@ -3,6 +3,5 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react",
-  "id": "073cce29"
+  "type": "react"
 }

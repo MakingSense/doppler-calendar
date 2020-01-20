@@ -2,34 +2,104 @@
     {
         "id": 1,
         "date": "01-01-2020",
-        "title": "&#x1F917; 01 - Año nuevo",
-        "contentTitle": "Envía una Campaña de Email y haz una acción en Redes",
-        "content": "¡Saluda a tus Suscriptores y seguidores deseándoles un magnífico año!"
+        "title": "&#x1F929; 01 - Año nuevo",
+        "contentTitle": "Deséale a tu comunidad lo mismo que quieres para ti:<br> ¡UN GRAN AÑO!",
+        "content": ""
     },
     {
         "id": 2,
         "date": "01-04-2020",
-        "title": "&#x1F4E2; 04 - Día del Periodista en MX",
-        "contentTitle": "<a href='https://www.google.com.ar' target='_blank'>Haz una acción en Redes</a>",
+        "title": "&#x270D; 04 - Día del Periodista en MX",
+        "contentTitle": "",
         "content": ""
     },
     {
         "id": 3,
         "date": "01-05-2020",
-        "title": "&#x1F4E2; 05 - Día del Periodista en EC",
-        "contentTitle": "Haz una acción en Redes",
+        "title": "&#x270D; 05 - Día del Periodista en EC",
+        "contentTitle": "",
         "content": ""
     },
     {
         "id": 4,
         "date": "01-06-2020",
-        "title": "&#x1F303; 06 - Día de los Reyes Magos",
+        "title": "&#x1F31F; 06 - Día de los Reyes Magos",
+        "contentTitle": "Tus promociones y sorteos serán muy bien recibidos.",
+        "content": ""
+    },
+    {
+        "id": 5,
+        "date": "01-07-2020",
+        "title": "&#x1F6CD; 07 - ¡Comienzo de Rebajas!",
         "contentTitle": "Haz una acción en Redes",
         "content": ""
     },
     {
-        "id": 3,
+        "id": 6,
+        "date": "01-20-2020",
+        "title": "&#x1F641; 20 - Blue Monday",
+        "contentTitle": "¡Alegra a tus clientes en este día!",
+        "content": ""
+    },
+    {
+        "id": 7,
+        "date": "01-24-2020",
+        "title": "&#x270D; 24. Día del Periodista ES",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 8,
+        "date": "01-28-2020",
+        "title": "👩‍💻 28. Día del Community Manager",
+        "contentTitle": "Nada mejor que celebrarlo con tus seguidores.",
+        "content": "¡Haz una acción en Redes Sociales!"
+    },
+    {
+        "id": 9,
         "date": "02-04-2020",
+        "title": "👨‍⚕️ 04. Día Mundial Contra el Cáncer",
+        "contentTitle": "Genera conciencia con mensajes e información que aporten valor a tu comunidad.",
+        "content": ""
+    },
+    {
+        "id": 10,
+        "date": "02-09-2020",
+        "title": "&#x270D; 09. Día del Periodista en CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 11,
+        "date": "02-13-2020",
+        "title": "&#x1F643; 13. Día Mundial del Soltero",
+        "contentTitle": "¡Una fecha ideal para aumentar tu <a href='https://blog.fromdoppler.com/aumentar-engagement-en-redes-sociales/?utm_source=calendario&utm_medium=calendario&utm_campaign=recursos-calendario2020'>Engagement</a>!",
+        "content": "Haz que amen tu marca."
+    },
+    {
+        "id": 12,
+        "date": "02-14-2020",
+        "title": "&#x1F498; 14. San Valentín",
+        "contentTitle": "¡Viva el amor!",
+        "content": ""
+    },
+    {
+        "id": 13,
+        "date": "02-20-2020",
+        "title": "&#x1F389; 20 - 25. Época de Carnavales",
+        "contentTitle": "Súmate a la alegría general con sorteos y promociones.",
+        "content": ""
+    },
+    {
+        "id": 14,
+        "date": "03-04-2020",
+        "title": "&#x1F917; 04 - Día Internacional contra el Cáncer",
+        "contentTitle": "Haz una acción en Redes",
+        "content": ""
+    },
+    {
+        "id": 15,
+        "date": "03 -04-2020",
         "title": "&#x1F917; 04 - Día Internacional contra el Cáncer",
         "contentTitle": "Haz una acción en Redes",
         "content": ""

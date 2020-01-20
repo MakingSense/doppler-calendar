@@ -4,8 +4,10 @@
 }
 
 .logo {
+  position: relative;
   display: block;
-  margin: 20px auto;
+  margin: 15px 10px;
+  float: left;
 }
 
 .homepage--page {

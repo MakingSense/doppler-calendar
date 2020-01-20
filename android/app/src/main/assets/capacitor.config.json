@@ -1,8 +1,14 @@
 {
-  "appId": "com.doppler.calendar",
+  "appId": "io.ionic.starter",
   "appName": "doppler-calendar",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
-  "cordova": {}
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 5000,
+      "showSpinner": false
+    }
+  }
 }
