@@ -10,9 +10,11 @@ function Accordion(props: any) {
     const [setRotate, setRotateState] = useState("accordion--icon");
 
     function toggleAccordion () {
-        setActiveState(setActive === "" ? "active" : "");
-        setHeightState(setActive === "active" ? "0px" : `${Acc_content.current.scrollHeight}px`);
-        setRotateState(setActive === "active" ? "accordion--icon" : "accordion--icon rotate");
+        if (props.contentTitle.length > 1){
+            setActiveState(setActive === "" ? "active" : "");
+            setRotateState(setActive === "active" ? "accordion--icon" : "accordion--icon rotate");
+            setHeightState(setActive === "active" ? "0px" : `${Acc_content.current.scrollHeight}px`);
+        }
     }
     
         return (
