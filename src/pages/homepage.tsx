@@ -21,7 +21,7 @@ import { RouteComponentProps } from 'react-router';
           </IonToolbar>
         </IonHeader>
         <IonContent className="homepage--page">
-            <div className="homepage--welcome">Revisa mes a mes los eventos más importantes del año</div>
+            <div className="homepage--welcome">Revisa mes a mes los eventos<br></br>más importantes del año</div>
           <IonCard className="welcome-card" button={true} onClick={()=>{props.history.push('/enero')}}>
             <img src="/assets/ilustraciones/enero.svg" alt="Enero" />
             <IonCardHeader>
