@@ -21,7 +21,7 @@ function Accordion(props: any) {
                     <div className="accordion--section">
                     <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
                         <div className="accordion--title" dangerouslySetInnerHTML = {{ __html: props.title}}></div>
-                        <Chevron width={10} fill={"#916D9B"} className={ `${setRotate}`}/>
+                        <Chevron width={10} fill={"#916D9B"} className={ `${setRotate}`} enable={props.contentTitle.length}/>
                     </button>
                     <div style={{ maxHeight: `${setHeight}` }} className="accordion--content" ref={Acc_content}>
                         <div className="accordion--content-title" dangerouslySetInnerHTML = {{ __html: props.contentTitle}}></div>
