@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@capacitor/android": "^1.4.0",
-    "@capacitor/core": "1.4.0",
+    "@capacitor/core": "^1.4.0",
     "@ionic-native/splash-screen": "^5.19.1",
     "@ionic/react": "^4.11.0",
     "@ionic/react-router": "^4.11.0",
@@ -48,7 +48,7 @@
   },
   "description": "A Doppler marketing Calendar",
   "devDependencies": {
-    "@capacitor/cli": "1.4.0",
+    "@capacitor/cli": "^1.4.0",
     "react-scripts": "3.3.0"
   }
 }
