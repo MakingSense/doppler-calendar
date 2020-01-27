@@ -11,7 +11,7 @@ import {
 
 import { arrowBack } from 'ionicons/icons';
 import './months.css';
-import EventList from '../components/EventList';
+import EventList from './EventList';
 
 const junio = () => {
     return (
@@ -25,7 +25,7 @@ const junio = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent className="ion-padding month--content">
-               <EventList mes="5"/>
+               <EventList mes={6}/>
             </IonContent>
         </IonPage>
         );
