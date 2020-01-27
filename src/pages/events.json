@@ -1,0 +1,716 @@
+[
+    {
+        "id": 1,
+        "date": "01-01-2020",
+        "title": "&#x1F929; 01 - Año nuevo",
+        "contentTitle": "Deséale a tu comunidad lo mismo que quieres para ti:<br> ¡UN GRAN AÑO!",
+        "content": ""
+    },
+    {
+        "id": 2,
+        "date": "01-04-2020",
+        "title": "&#x270D; 04 - Día del Periodista en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 3,
+        "date": "01-05-2020",
+        "title": "&#x270D; 05 - Día del Periodista en EC",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 4,
+        "date": "01-06-2020",
+        "title": "&#x1F31F; 06 - Día de los Reyes Magos",
+        "contentTitle": "Tus promociones y sorteos serán muy bien recibidos.",
+        "content": ""
+    },
+    {
+        "id": 5,
+        "date": "01-07-2020",
+        "title": "&#x1F6CD; 07 - ¡Comienzo de Rebajas!",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 6,
+        "date": "01-20-2020",
+        "title": "&#x1F641; 20 - Blue Monday",
+        "contentTitle": "¡Alegra a tus clientes en este día!",
+        "content": ""
+    },
+    {
+        "id": 7,
+        "date": "01-24-2020",
+        "title": "&#x270D; 24. Día del Periodista en ES",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 8,
+        "date": "01-27-2020",
+        "title": "👩🏽‍💻 27. Día del Community Manager",
+        "contentTitle": "Nada mejor que celebrarlo con tus seguidores.",
+        "content": "¡Haz una acción en Redes Sociales!"
+    },
+    {
+        "id": 9,
+        "date": "02-04-2020",
+        "title": "👨‍⚕️ 04. Día Mundial contra el Cáncer",
+        "contentTitle": "Genera conciencia con mensajes e información que aporten valor a tu comunidad.",
+        "content": ""
+    },
+    {
+        "id": 10,
+        "date": "02-09-2020",
+        "title": "&#x270D; 09. Día del Periodista en CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 11,
+        "date": "02-13-2020",
+        "title": "&#x1F643; 13. Día Mundial del Soltero",
+        "contentTitle": "¡Una fecha ideal para aumentar tu <a href='https://blog.fromdoppler.com/aumentar-engagement-en-redes-sociales/?utm_source=calendario&utm_medium=calendario&utm_campaign=recursos-calendario2020'>Engagement</a>!",
+        "content": "Haz que amen tu marca."
+    },
+    {
+        "id": 12,
+        "date": "02-14-2020",
+        "title": "&#x1F498; 14. San Valentín",
+        "contentTitle": "¡Viva el amor!",
+        "content": ""
+    },
+    {
+        "id": 13,
+        "date": "02-20-2020",
+        "title": "&#x1F389; 20 - 25. Época de Carnavales",
+        "contentTitle": "Súmate a la alegría general con sorteos y promociones.",
+        "content": ""
+    },
+    {
+        "id": 14,
+        "date": "03-03-2020",
+        "title": "&#x1F331; 03 - Día de la Naturaleza",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 15,
+        "date": "03-08-2020",
+        "title": "&#x2640; 08 - Día Internacional de la Mujer",
+        "contentTitle": "¡Feliz día! Nada sería igual sin ustedes.",
+        "content": ""
+    },
+    {
+        "id": 16,
+        "date": "03-17-2020",
+        "title": "&#x1F340; 17 - San Patricio",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 17,
+        "date": "03-19-2020",
+        "title": "&#x1F468;&#x200D;&#x1F466; 19 - Día del Padre en ES",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 18,
+        "date": "03-20-2020",
+        "title": "&#x1F604; 20 - Día Internacional de la Felicidad",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 19,
+        "date": "03-21-2020",
+        "title": "&#x1F341;&#x200D;&#x1F338; 21 - Comienzo del otoño en el Hemisferio Sur y de la primavera en el Hemisferio Norte",
+        "contentTitle": "¡Inspírate con los tips sobre <a href='https://goemms.com/post/story-telling-story-doing-story-taking?utm_source=calendario&utm_medium=calendario&utm_campaign=recursos-calendario2020'>Storytelling</a> de Vero Ruiz del Vizo!",
+        "content": ""
+    },
+    {
+        "id": 20,
+        "date": "03-28-2020",
+        "title": "&#x1F30E; 28 - La Hora del Planeta",
+        "contentTitle": "Apaga la luz y enciende tus ideas para sumarte a esta iniciativa global.",
+        "content": ""
+    },
+    {
+        "id": 21,
+        "date": "04-06-2020",
+        "title": "&#x1F6B4; 06 - Día Internacional del Deporte",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 22,
+        "date": "04-07-2020",
+        "title": "&#x1F468;&#x200D;&#x2695; 07 - Día Mundial de la Salud",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 23,
+        "date": "04-12-2020",
+        "title": "&#x1F430; 12 - Pascuas",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 24,
+        "date": "04-13-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 13 - Día del Maestro en EC",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 25,
+        "date": "04-15-2020",
+        "title": "&#x1F9D2; 15 - Día del Niño en ES",
+        "contentTitle": "Si ya enviaste tus Emails promocionales, hoy salúdalos en Redes",
+        "content": ""
+    },
+    {
+        "id": 26,
+        "date": "04-22-2020",
+        "title": "&#x1F30E; 22 - Día de la Tierra",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 27,
+        "date": "04-23-2020",
+        "title": "&#x1F4DA; 23 - Día Internacional del Libro",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 28,
+        "date": "04-27-2020",
+        "title": "&#x1F9D2; 27 - Día del Niño en CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 29,
+        "date": "04-27-2020",
+        "title": "&#x1F3A8; 27 - Día Mundial del Diseño",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 30,
+        "date": "04-29-2020",
+        "title": "&#x1F408; 29 - Día del Animal en AR",
+        "contentTitle": "Comparte fotos de las mascotas de tu equipo y genera Engagement con tu comunidad.",
+        "content": ""
+    },
+    {
+        "id": 31,
+        "date": "04-30-2020",
+        "title": "&#x1F9D2; 30 - Día del Niño en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 32,
+        "date": "05-01-2020",
+        "title": "&#x1F609; 01 - Día del Trabajador",
+        "contentTitle": "¡Feliz día a ti y a tu equipo!",
+        "content": ""
+    },
+    {
+        "id": 33,
+        "date": "05-03-2020",
+        "title": "&#x1F469;&#x200D;&#x1F466; 03 - Día de la Madre en ES",
+        "contentTitle": "¿Por qué no hacer un sorteo en tus Redes, sólo para ellas?",
+        "content": ""
+    },
+    {
+        "id": 34,
+        "date": "05-04-2020",
+        "title": "<img src='/assets/trooper.png' width='16' style='vertical-align:middle'> 04 - Día de Star Wars",
+        "contentTitle": "Nada más lindo que ser parte de una comunidad.",
+        "content": ""
+    },
+    {
+        "id": 35,
+        "date": "05-10-2020",
+        "title": "&#x1F469;&#x200D;&#x1F466; 10 - Día de la Madre en MX - PE - EC - URY - CO - CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 36,
+        "date": "05-11-2020",
+        "title": "&#x1F3EB; 11 - Día del Alumno en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 37,
+        "date": "05-15-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 15 - Día del Maestro en MX - CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 38,
+        "date": "05-15-2020",
+        "title": "&#x1F469;&#x200D;&#x1F466; 15 - Día de la Madre en PY",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 39,
+        "date": "05-17-2020",
+        "title": "&#x1F4E1; 17 - Día Internacional de Internet",
+        "contentTitle": "¡Crea <a href='https://goemms.com/post/representacion-simbolica?utm_source=calendario&utm_medium=calendario&utm_campaign=recursos-calendario2020' target='_blank'>mensajes publicitarios</a> que contribuyan a un mundo mejor!",
+        "content": ""
+    },
+    {
+        "id": 40,
+        "date": "05-25-2020",
+        "title": "&#x1F6CD; 25 - CyberDay en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 101,
+        "date": "05-27-2020",
+        "title": "&#x1F6CD; 27 al 31 - Hot Sale en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 41,
+        "date": "05-30-2020",
+        "title": "&#x1F382; 30 - Aniversario #14 de Doppler",
+        "contentTitle": "Sigue los festejos de nuestro cumpleaños #14 en <a href='https://www.facebook.com/DopplerEmailMarketing' target='_blank'>Facebook</a> e <a href='https://www.instagram.com/fromdoppler/' target='_blank'>Instagram</a>",
+        "content": ""
+    },
+    {
+        "id": 42,
+        "date": "06-01-2020",
+        "title": "&#x1F9D2; 01 - Día del Niño en EC",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 43,
+        "date": "06-05-2020",
+        "title": "&#x267B; 05 - Día Mundial del Medio Ambiente",
+        "contentTitle": "Cuenta cómo cuidas tú al planeta.",
+        "content": ""
+    },
+    {
+        "id": 44,
+        "date": "06-06-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 06 - Día del Maestro en BO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 45,
+        "date": "06-07-2020",
+        "title": "&#x270D; 07 - Día del Periodista en AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 46,
+        "date": "06-18-2020",
+        "title": "&#x1F468;&#x200D;&#x1F373; 18 - Día de la Gastronomía Sostenible",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 47,
+        "date": "06-19-2020",
+        "title": "&#x1F601; 19 - Yellow Day",
+        "contentTitle": "¡Hoy es el día más feliz del año!",
+        "content": ""
+    },
+    {
+        "id": 48,
+        "date": "06-21-2020",
+        "title": "&#x1F468;&#x200D;&#x1F466; 21 - Día del Padre en AR - MX - PE - CL - EC - CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 49,
+        "date": "06-21-2020",
+        "title": "&#x2744;&#x200D;&#x1F31E; 21 - Comienzo del invierno en el Hemisferio Sur y del verano en el Hemisferio Norte.",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 50,
+        "date": "06-23-2020",
+        "title": "&#x1F386; 23 y 24 - Fiestas de San Juan en ES",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 51,
+        "date": "06-27-2020",
+        "title": "&#x2699; 27 - Día de las PyME",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 52,
+        "date": "06-30-2020",
+        "title": "&#x1F4E2; 30 - Día Mundial de las Redes Sociales",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 53,
+        "date": "07-01-2020",
+        "title": "&#x1F6CD; 01 - Semana de la Dulzura en AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 54,
+        "date": "07-11-2020",
+        "title": "&#x270D; 11 - Día del Periodista en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 55,
+        "date": "07-12-2020",
+        "title": "&#x1F468;&#x200D;&#x1F466; 12 - Día del Padre en UY",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 55,
+        "date": "07-17-2020",
+        "title": "&#x1F469;&#x200D;&#x1F4BC; 17 - Día del Asistente en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 56,
+        "date": "07-20-2020",
+        "title": "&#x1F9D1;&#x200D;&#x1F91D;&#x200D;&#x1F9D1; 20 - Día del Amigo en AR - CL - ES - UY - MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 57,
+        "date": "07-23-2020",
+        "title": "&#x1F9D1;&#x200D;&#x1F91D;&#x200D;&#x1F9D1; 23 - Día de la Amistad en BO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 58,
+        "date": "07-26-2020",
+        "title": "&#x1F475; 26 - Día de los Abuelos y Abuelas en ES - AR -  MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 59,
+        "date": "07-30-2020",
+        "title": "&#x1F9D1;&#x200D;&#x1F91D;&#x200D;&#x1F9D1; 30 - Día del Amigo en PY",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 60,
+        "date": "08-01-2020",
+        "title": "&#x1F60A; 01 - Día Mundial de la Alegría",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 61,
+        "date": "08-04-2020",
+        "title": "&#x270D; 04 - Día del Periodista en CO",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 62,
+        "date": "08-09-2020",
+        "title": "&#x270D; 09 - Día del Niño en CL",
+        "contentTitle": "¡No te olvides de saludar a los más pequeños en su día!",
+        "content": ""
+    },
+    {
+        "id": 63,
+        "date": "08-12-2020",
+        "title": "&#x1F646;&#x200D;&#x2640; 12 - Día Internacional de la Juventud",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 64,
+        "date": "08-16-2020",
+        "title": "&#x270D;&#x200D;&#x2640; 16 - Día del Niño en AR - PE",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 65,
+        "date": "08-19-2020",
+        "title": "&#x1F4F8; 19 - Día Mundial de la Fotografía",
+        "contentTitle": "Organiza un concurso en Redes Sociales. ¡La mejor foto (en su día) gana!",
+        "content": ""
+    },
+    {
+        "id": 66,
+        "date": "09-04-2020",
+        "title": "&#x1F64B;&#x200D;&#x2640; 04 - Día de la Secretaria en AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 67,
+        "date": "09-10-2020",
+        "title": "&#x1F551; 10 - ¡Cuenta regresiva para el EMMS!",
+        "contentTitle": "Revive las ediciones anteriores y mira qué estamos armando para ti en <a href='https://goemms.com/?utm_source=calendario&utm_medium=calendario&utm_campaign=recursos-calendario2020' target='_blank'>goemms.com</a>",
+        "content": ""
+    },
+    {
+        "id": 68,
+        "date": "09-11-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 11 - Día del Maestro en AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 69,
+        "date": "09-18-2020",
+        "title": "&#x1F1E8;&#x1F1F1; 18 y 19 - Fiestas Patrias en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 70,
+        "date": "09-21-2020",
+        "title": "&#x1F468;&#x200D;&#x1F393; 21 - Fiestas Patrias en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 71,
+        "date": "09-21-2020",
+        "title": "&#x1F338;&#x200D;&#x1F341; 21 - Comienzo de la primavera en el Hemisferio Sur y del otoño en el Hemisferio Norte",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 72,
+        "date": "09-21-2020",
+        "title": "&#x1F54A; 21 - Día Internacional de la Paz",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 73,
+        "date": "09-27-2020",
+        "title": "&#x1F9F3; 27 - Día Mundial del Turismo",
+        "contentTitle": "¡Las ofertas en viajes son mejor recibidas con imágenes tentadoras!",
+        "content": ""
+    },
+    {
+        "id": 74,
+        "date": "10-01-2020",
+        "title": "&#x1F3B5; 01 - Día Internacional de la Música",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 75,
+        "date": "10-01-2020",
+        "title": "&#x270D; 01 - Día del Periodista en PE",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 76,
+        "date": "10-04-2020",
+        "title": "&#x1F408; 04 - Día Mundial de los Animales",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 77,
+        "date": "10-05-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 05 - Día Mundial de los Docentes",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 78,
+        "date": "10-12-2020",
+        "title": "&#x1F642; 12 - Día del Respeto a la Diversidad Cultural",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 79,
+        "date": "10-16-2020",
+        "title": "&#x1F349; 16 - Día Mundial de la Alimentación",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 80,
+        "date": "10-16-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 16 - Día del Maestro (Profesor) en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 81,
+        "date": "10-18-2020",
+        "title": "&#x1F469;&#x200D;&#x1F466; 18 - Día de la Madre en AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 82,
+        "date": "10-21-2020",
+        "title": "&#x1F4A1; 21 - Día Mundial del Ahorro de Energía",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 83,
+        "date": "10-31-2020",
+        "title": "&#x1F383; 31 - Halloween",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 84,
+        "date": "11-01-2020",
+        "title": "&#x1F64F; 01 - Día de todos los Santos",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 85,
+        "date": "11-02-2020",
+        "title": "&#x1F480; 02 - Día de Muertos en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 86,
+        "date": "11-04-2020",
+        "title": "&#x1F4E2; 04 - Día Internacional del Marketing",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 87,
+        "date": "11-13-2020",
+        "title": "&#x1F6CD; 13 al 16 - Buen Fin en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 88,
+        "date": "11-17-2020",
+        "title": "&#x1F4D3; 17 - Día Internacional del Estudiante",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 89,
+        "date": "11-20-2020",
+        "title": "&#x1F9D2; 20 - Día Internacional del Niño",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 90,
+        "date": "11-27-2020",
+        "title": "&#x1F469;&#x200D;&#x1F3EB; 27 - Día del Maestro en ES",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 91,
+        "date": "11-27-2020",
+        "title": "&#x1F6CD; 27 - Black Friday",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 92,
+        "date": "11-30-2020",
+        "title": "&#x1F6CD; 30 - CyberMonday en MX - AR",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 93,
+        "date": "11-30-2020",
+        "title": "&#x1F6CD; 30 - CyberDay en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 94,
+        "date": "12-03-2020",
+        "title": "&#x1F64B;&#x200D;&#x2640; 03 - Día de la Secretaria en CL",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 95,
+        "date": "12-12-2020",
+        "title": "&#x2B50; 12 - Día de la Virgen de Guadalupe en MX",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 96,
+        "date": "12-21-2020",
+        "title": "&#x1F31E;&#x200D;&#x2744; 21 - Comienzo del verano en el Hemisferio Sur y del invierno en el Hemisferio Norte",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 97,
+        "date": "12-24-2020",
+        "title": "&#x1F385; 24 - Nochebuena",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 98,
+        "date": "12-25-2020",
+        "title": "&#x1F384; 25 - Navidad",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 99,
+        "date": "12-28-2020",
+        "title": "&#x1F923; 28 - Día de los Inocentes",
+        "contentTitle": "",
+        "content": ""
+    },
+    {
+        "id": 100,
+        "date": "12-31-2020",
+        "title": "&#x1F31F; 31 - Fin de año",
+        "contentTitle": "",
+        "content": ""
+    }
+]
