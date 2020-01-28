@@ -1,5 +1,5 @@
 {
-  "appId": "com.fromdoppler.calendar",
+  "appId": "com.fromdoppler.calendar-app",
   "appName": "doppler-calendar",
   "bundledWebRuntime": false,
   "npmClient": "npm",
