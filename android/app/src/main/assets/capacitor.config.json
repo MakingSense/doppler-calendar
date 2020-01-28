@@ -7,7 +7,7 @@
   "cordova": {},
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 5000,
+      "launchShowDuration": 3000,
       "showSpinner": false
     }
   }
