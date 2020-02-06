@@ -5,6 +5,7 @@ import {
   IonRouterOutlet,
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import leadgen from './pages/leadgen';
 import homepage from './pages/homepage';
 import enero from './pages/enero';
 import febrero from './pages/febrero';
@@ -39,10 +40,11 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './theme/fonts.css';
 
-const App: React.FC = () => (
+const App = () => (
   <IonApp>
     <IonReactRouter>
         <IonRouterOutlet>
+          <Route path="/leadgen" component={leadgen} exact={true} />
           <Route path="/homepage" component={homepage} exact={true} />
           <Route path="/enero" component={enero} exact={true} />
           <Route path="/febrero" component={febrero} exact={true} />
@@ -56,7 +58,7 @@ const App: React.FC = () => (
           <Route path="/octubre" component={octubre} exact={true} />
           <Route path="/noviembre" component={noviembre} exact={true} />
           <Route path="/diciembre" component={diciembre} exact={true} />
-          <Route path="/" render={() => <Redirect to="/homepage" />} exact={true} />
+          <Route path="/" render={() => <Redirect to="/leadgen" />} exact={true} />
         </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
