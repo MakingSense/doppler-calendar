@@ -25,3 +25,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 ios
+/android/app/capacitor.build.gradle
+/android/capacitor.settings.gradle
