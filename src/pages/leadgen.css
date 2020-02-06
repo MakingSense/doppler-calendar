@@ -1,0 +1,21 @@
+.home-leadgen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100vw;
+    text-align: center;
+}
+
+.leadgen-logo {
+    display: block;
+    margin: 20px auto;
+}
+
+.btn-reg {
+    margin-top: 20px;
+}
