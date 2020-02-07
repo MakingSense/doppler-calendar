@@ -28,26 +28,41 @@ async function postDataDoppler(emailAccount){
   listId = '27293738';
 
   let res = await axios.post('https://restapi.fromdoppler.com/accounts/'+ accountName +'/lists/'+ listId +'/subscribers?api_key='+ apikey, dataEmail);
-  console.log(res);
 }
+
+// flagDoppler(false);
 
 const Leadgen = (props) => {
   const [ usrEmail, setUsrEmail ] = useState('');
   const [ formErrors, setFormErrors ] = useState('');
+  const [ flag, setFlag ] = useState(false);
+
+  const checkFlagLS = async() => {
+    try {
+      const tmp_flag = await Storage.get({key: 'flagDoppler'});
+      setFlag(JSON.parse(tmp_flag.value));
+    } catch (e) {
+      setFormErrors(e);
+      console.log(formErrors);
+    }
+  }
   
   const submit = async() => {
     try {
       await postDataDoppler(usrEmail);
       flagDoppler(true);
-      const  flag = await Storage.get({key: 'flagDoppler'});
-      console.log('Got item: ', JSON.parse(flag.value));
+      checkFlagLS();
       props.history.push('/homepage');
     } catch (e) {
       setFormErrors(e);
       console.log(formErrors);
     }
   }
-
+  
+  checkFlagLS();
+  if (flag){
+    return <Redirect to="/homepage" />
+  }
   
     return (
       <IonPage>
