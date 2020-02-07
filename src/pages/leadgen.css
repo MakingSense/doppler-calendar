@@ -1,14 +1,50 @@
 .home-leadgen {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
+    justify-content: flex-start;
+    height: 80vh;
+    padding: 40px;
+    flex-direction: column;
 }
+
+.leadgen--header {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+  }
 
 .form-container {
     width: 100vw;
+    display: flex;
     text-align: center;
+    align-content: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.checks {
+    --border-radius: 3px;
+    --size: 16px;
+    margin-right: 6px;
+}
+
+.check-items {
+    --background-activated: #ffffff;
+    font-size: 12px;
+    --padding-start: 0;
+    --color: --ion-color-medium;
+    width: 90vw;
+    --min-height: 25px;
+}
+
+.check-items a {
+    color: --ion-color-success;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
 }
 
 .leadgen-logo {
@@ -18,4 +54,48 @@
 
 .btn-reg {
     margin-top: 20px;
+    width: 90vw;
+    font-size: 13px;
+}
+
+.leadgen--welcome {
+    padding: 0 0 26px 0;
+    text-align: center;
+    font-family: 'Hand of Sean Pro';
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .leadgen--page {
+    --background: url('/assets/back-leadgen.svg') no-repeat center 320px;
+  }
+
+  .input-leadgen {
+      border: 1px solid #B4B0A4;
+      width:90vw;
+      border-radius: 3px;
+      text-align: left;
+      --padding-start: 10px;
+      font-size: 14px;
+      --placeholder-font-style: italic;
+      --placeholder-color: #838370;
+      margin-bottom: 30px;
+  }
+
+  .input-leadgen::placeholder {
+      font-style: italic !important;
+  }
+
+ion-toolbar {
+    --min-height: 70px;
+}
+
+ion-card-title {
+    font-size: 20px;
+}
+
+ion-card-header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #fff;
 }
