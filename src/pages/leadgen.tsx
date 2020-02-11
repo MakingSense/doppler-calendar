@@ -26,9 +26,9 @@ async function flagDoppler(status) {
 
 async function postDataDoppler(emailAccount){
   const dataEmail = {email:emailAccount}, 
-  accountName = 'disenio%40makingsense.com', 
-  apikey = '7ACCFAC1779CA0D2449F3CD3B3B736E8',
-  listId = '27293738';
+  accountName = 'upgrade%40makingsense.com', 
+  apikey = '8EA4F0E0A0B9C3BCBA85071C9ED33FD3',
+  listId = '27502530';
   let res = await axios.post('https://restapi.fromdoppler.com/accounts/'+ accountName +'/lists/'+ listId +'/subscribers?api_key='+ apikey, dataEmail);
 }
 
