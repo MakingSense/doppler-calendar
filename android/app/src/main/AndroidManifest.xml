@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.ionic.starter">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fromdoppler.calendar">
 
     <application
         android:allowBackup="true"
@@ -12,7 +11,7 @@
 
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
-            android:name="io.ionic.starter.MainActivity"
+            android:name="com.fromdoppler.calendar.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBarLaunch"
             android:launchMode="singleTask">
