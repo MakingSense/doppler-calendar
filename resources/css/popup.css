@@ -18,7 +18,7 @@ button {
 }
 
 a {
-	color: #1D1F89;
+	color: #33AD73;
 	text-decoration: none;
 }
 
@@ -179,6 +179,10 @@ header {
 	border-bottom-right-radius: 0px;
   -moz-border-radius-bottomright: 0px;
 	-webkit-border-bottom-right-radius: 0px;
+}
+
+.accordion__days input[type=radio]:checked+.accordion__day .accordion__day--header.no-content {
+	border-bottom:none;
 }
 
 .accordion__day {
