@@ -48,7 +48,7 @@ self.addEventListener('push', function(event) {
 
   const title = 'Doppler Calendar';
   const options = {
-    body: 'Uno, dos, tres, probando! Estas suscripto a las notificaciones del calendario de marketing estacional 2020!',
+    body: 'Uno, dos, tres, probando! Estas suscripto a las notificaciones del calendario de marketing estacional 2021!',
     icon: 'resources/img/icon128.png',
     badge: 'resources/img/icon128.png'
   };

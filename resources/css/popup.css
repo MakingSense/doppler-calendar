@@ -1,10 +1,10 @@
 @charset "UTF-8";
 body {
-	background: #FFFFFF;
-	font-family: 'Helvetica', sans-serif;
+	background: #3D2345;
+	font-family: 'proxima-nova', Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
-	height: 480px;
+	height: 600px;
 	overflow-y: scroll;
 	width: 430px;
 	padding: 0;
@@ -14,7 +14,7 @@ body {
 body,
 input,
 button {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'proxima-nova', Helvetica, sans-serif;
 }
 
 a {
@@ -55,9 +55,7 @@ a {
 
 /* Customized Header :: Begin */
 header {
-	height: 81px;
-	background-image: url('../img/header.png');
-	background-size: 409px 81px;
+	height: 75px;
 	position: relative;
 	width: 100%;
 	top: 0;
@@ -70,7 +68,9 @@ header {
 }
 
 .configuration__icon {
-	float: right;
+	position: absolute;
+	right: 20px;
+	top: 10px;
 }
 
 .header__title {
@@ -79,7 +79,11 @@ header {
 
 .header__title h1 {
 	font-size: 20px;
+	line-height: 21px;
+	font-weight: 700;
 	color: #ffffff;
+	text-align: center;
+	padding: 0 40px;
 }
 /* Customized Header :: End */
 
@@ -87,7 +91,8 @@ header {
 .section__container {
 	display: flex;
 	overflow: hidden;
-	height: 450px;
+	height: 520px;
+	flex-direction: column;
 }
 
 .section__calendar {
@@ -98,29 +103,34 @@ header {
 }
 
 .section__madein {
-	display: flex;
-	align-items: center;
-	vertical-align: middle;
-	padding: 10px 3px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+
+
+.section__madein--icon-d {
+	height: 21px;
 }
 
 .section__madein p {
-	font-size: 11px;
-	font-weight: bold;
-	color: #302100;
-	vertical-align: middle;
+	color:#FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 400;
 }
 
-.section__madein--icon-d {
-	height: 14px;
-	vertical-align: top;
-	padding-left: 3px;
+.section__madein--link {
+	text-decoration: none;
+	color:#33AD73;
+	font-style: italic;
+	font-weight: 700;
 }
 
 /* Customized Month :: Begin */
 .button__month {
 	width: 100%;
-	color: #4A4A4A;
+	color: #302100;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 19px;
@@ -150,7 +160,7 @@ header {
 }
 
 .accordion__day {
-	background-color: #E5CFE3;
+	background-color: #E2CAEB;
 	border: 1px solid #8C6698;
 	box-shadow: 0 -2px 4px 0 rgba(178,178,178,0.5);
 	-moz-box-shadow: 0 -2px 4px 0 rgba(178,178,178,0.5);
@@ -159,7 +169,7 @@ header {
 
 .active,
 .button__month:hover {
-	background-color: #E5CFE3;
+	background-color: #E2CAEB;
 }
 
 .accordion__days input[type=radio] {
@@ -171,8 +181,8 @@ header {
 }
 
 .accordion__days input[type=radio]:checked+.accordion__day .accordion__day--header {
-	border-bottom: 1px solid #8C6698;
-	background-color: #E5CFE3;
+	border-bottom: 1px solid #E2CAEB;
+	background-color: #E2CAEB;
 	border-bottom-left-radius: 0px;
 	-moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
@@ -182,7 +192,9 @@ header {
 }
 
 .accordion__days input[type=radio]:checked+.accordion__day .accordion__day--header.no-content {
-	border-bottom:none;
+	border-bottom: 1px solid #ffffff !important;
+	background-color: #ffffff !important;
+	
 }
 
 .accordion__day {
@@ -207,7 +219,7 @@ header {
 .accordion__day--header {
 	margin: 0;
 	padding: 20px 10px 15px 18px;
-	background: #ffffff;
+	background: #E2CAEB;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -215,11 +227,31 @@ header {
 	-webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
+  min-height: 25px;
 }
 
-.accordion__day--header:hover {
-	background-color: #E5CFE3;
+.accordion__day--header::after {
+	content: '\025BE';
+	color:#4a4a4a;
+	position: relative;
+	right: 0;
 }
+
+.accordion__day--header.no-content {
+	background-color: #fff !important;
+}
+
+.accordion__day--header.no-content::after {
+	color:#ffffff;
+}
+.accordion__day--header:hover {
+	background-color: #CDAFD8;
+}
+
+.accordion__day--header.no-content .accordion__day--content h3{
+	color:#555845;
+}
+
 
 .accordion__day--icon {
 	width: 20px;
@@ -228,20 +260,19 @@ header {
 }
 
 .accordion__day--content {
-  margin-left: 13px;
 	display: inline-block;
 	max-width: 333px;
 }
 
 .accordion__day--content h3 {
 	font-size: 14px;
-	color: #4A4A4A;
+	color: #555845;
 	line-height: 18px;
 }
 
 .accordion__day--description {
 	font-size: 14px;
-	color: #777777;
+	color: #555845;
 	border-bottom-left-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-bottomleft: 5px;
