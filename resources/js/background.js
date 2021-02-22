@@ -10,7 +10,7 @@ navigator.serviceWorker.register('../../sw.js');
  day5 = new Date('2021/02/14');
  day6 = new Date('2021/03/04');
  day7 = new Date('2021/03/19');
- day8 = new Date('2021/03/31');
+ day8 = new Date('2021/03/24');
  day9 = new Date('2021/04/04');
  day10 = new Date('2021/04/24');
  day11 = new Date('2021/04/30');
@@ -75,9 +75,9 @@ if (CheckPushDays(day1)){
 } else if (CheckPushDays(day12)){
   spawnNotification('','','2 - Día de la Madre en ES');
 } else if (CheckPushDays(day13)){
-  spawnNotification('','','9 - Día de la Madre en CO, EC, CL, PE, UY  ');
+  spawnNotification('Aprovecha toda la información que tienes sobre cada Contacto para crear contenidos hiperpersonalizados. ¡Incluso podrías enviar una Campaña de SMS y notificarlos sobre tus mejores productos para regalar en esta fecha!','','9 - Día de la Madre en CO, EC, CL, PE, UY  ');
 } else if (CheckPushDays(day14)){
-  spawnNotification('Aprovecha toda la información que tienes sobre cada Contacto para crear contenidos hiperpersonalizados. ¡Incluso podrías enviar una Campaña de SMS y notificarlos sobre tus mejores productos para regalar en esta fecha!','','10 - Día de la Madre en MX');
+  spawnNotification('¿Qué puedes esperar de este evento? Descúbrelo revisando algunas métricas de la edición pasada. También encontrarás ejemplos de Campañas enviadas por nuestros usuarios que pueden resultar inspiradoras.','','10 - Hot Sale en AR');
 } else if (CheckPushDays(day15)){
   spawnNotification('Es una fecha ideal para apelar a los sentimientos y las emociones. ¿Te animas a aplicar estos consejos de Copywriting en tus Emails? ¡Prepárate para aumentar las conversiones!','','20 - ¡Un mes para el Día del Padre!');
 } else if (CheckPushDays(day16)){
