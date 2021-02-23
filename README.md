@@ -1,4 +1,4 @@
-# Seasonal Marketing Calendar 2019
+# Seasonal Marketing Calendar
 
 [Seasonal Marketing Calendar](https://chrome.google.com/webstore/detail/calendario-de-marketing-e/agmbglpihhbeandekeblnadhmakcplgk) is a **extension for Chrome** where it will help you plan your Marketing actions and anticipate your competition. You will also find suggestions on which channel you should use in each case: Send Email Marketing Campaigns or generate actions in Social Networks.
 
