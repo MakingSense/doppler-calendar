@@ -38,6 +38,7 @@ navigator.serviceWorker.register('../../sw.js');
  day33 = new Date('2021/11/26');
  day34 = new Date('2021/11/29');
  day35 = new Date('2021/12/25');
+ day37 = new Date('2021/05/23');
 
   function CheckPushDays(dayEvent){
     var todayEvent = new Date().getTime();
@@ -120,6 +121,8 @@ if (CheckPushDays(day1)){
   spawnNotification('','','29 - Cyber Monday');
 } else if (CheckPushDays(day35)){
   spawnNotification('¿Quieres terminar el año de la mejor manera? Encuentra las claves para tu estrategia de Email & Automation Marketing en este Workshop especial de Navidad. Luego, planifica y calendariza tus envíos fácilmente con este recurso descargable.','','25 - Navidad');
+} else if (CheckPushDays(day37)){
+  spawnNotification('Es hora de preparar tu estrategia para esta fecha especial, inspírate con ejemplos de las mejores Campañas para el Hot Sale. Luego, descubre qué tan encaminada está tu estrategia para las Jornadas comerciales y comprueba qué tan cerca estás del éxito.','','23 al 31 - Hot Sale MX');
 }
 
  function spawnNotification(theBody, theIcon, theTitle, theUrl) {
