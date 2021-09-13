@@ -1,28 +1,25 @@
 {
-"manifest_version": 2,
-"name": "Calendario de Marketing Estacional 2021",
-"short_name": "Calendario Doppler",
-"version": "4.3",
-"author": "Doppler LLC",
-"description": "Calendario de Marketing Estacional 2021 - Doppler",
-"icons": {
+  "manifest_version": 2,
+  "name": "Calendario de Marketing Estacional 2021",
+  "short_name": "Calendario Doppler",
+  "version": "4.4",
+  "author": "Doppler LLC",
+  "description": "Calendario de Marketing Estacional 2021 - Doppler",
+  "icons": {
     "128": "resources/img/extension-icon_128x128.png",
     "48": "resources/img/extension-icon_48x48.png",
     "16": "resources/img/extension-icon_16x16.png"
   },
-"browser_action": {
+  "browser_action": {
     "default_icon": "resources/img/extension-icon_48x48.png",
     "default_popup": "popup.html"
   },
-"options_ui": {
-  "page": "configuration.html"
-},
-"background": {
-  "scripts": ["resources/js/background.js"],
-  "persistent": false
-},
-"permissions": [
-  "notifications",
-  "tabs"
-  ]
+  "options_ui": {
+    "page": "configuration.html"
+  },
+  "background": {
+    "scripts": ["resources/js/background.js"],
+    "persistent": false
+  },
+  "permissions": ["notifications", "tabs"]
 }
